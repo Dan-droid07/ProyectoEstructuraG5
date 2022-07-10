@@ -4,13 +4,17 @@
  */
 package AvanceProyecto_1;
 
+import Conexion.CConexion;
+
 
 public class RecibirSobre {
 
     
    public static void main(String[] args) {
-
-        HeroesCustomLinkedList heroesList = new HeroesCustomLinkedList();
+         
+         CConexion objetoConexion = new CConexion();
+        objetoConexion.establecerConexion();
+       /* HeroesCustomLinkedList heroesList = new HeroesCustomLinkedList();
 
         Heroes hero1 = new Heroes("Han Solo", 1);
         Heroes hero2 = new Heroes("Han Solo", 2);
@@ -22,7 +26,7 @@ public class RecibirSobre {
         heroesList.insert(hero2);
         heroesList.insert(hero3);
         heroesList.insert(hero4);
-        heroesList.insert(hero5);
+        heroesList.insert(hero5);  */
         
     }
    
