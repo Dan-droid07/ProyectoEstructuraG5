@@ -9,9 +9,9 @@ package Conexion;
  * @author dsiles
  */
 public class MysqlJava {
-       public static void main(String[] args) {
+     /*  public static void main(String[] args) {
         CConexion objetoConexion = new CConexion();
         objetoConexion.establecerConexion();
     }
-    
+    */
 }
