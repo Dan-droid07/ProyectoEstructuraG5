@@ -25,7 +25,7 @@ public class CConexion {
     
     public Connection establecerConexion(){
           try {
-              Class.forName("com.mysql.jdbc.Driver");
+              Class.forName("com.mysql.cj.jdbc.Driver");
            // String cadena = "jdbc:mysqlserver://localhost:"+puerto+";"+"databaseName="+bd ; //;encrypt=true;trustServerCertificate=true"
                     //+":"+ puerto+":"+"databasename="+bd
             conectar=DriverManager.getConnection(cadena);
