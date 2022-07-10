@@ -16,7 +16,7 @@ public class CConexion {
     
 
     Connection conectar = null;
-     String bd = "academicodb";
+     String bd = "starwars";
     String ip = "localhost";
     String puerto = "3306";
    // String user ="root";
@@ -29,7 +29,7 @@ public class CConexion {
            // String cadena = "jdbc:mysqlserver://localhost:"+puerto+";"+"databaseName="+bd ; //;encrypt=true;trustServerCertificate=true"
                     //+":"+ puerto+":"+"databasename="+bd
             conectar=DriverManager.getConnection(cadena);
-            JOptionPane.showMessageDialog(null, "Se conecto correctamente con la base de datos " );
+            JOptionPane.showMessageDialog(null, "Se conecto correctamente con la base de datos " + bd);
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error al conectar con la base de datos, error: " + e.toString());
         }
